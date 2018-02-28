@@ -1,0 +1,8 @@
+@mixin float-left {
+  float: left;
+}
+
+.call-out {
+  @include float-left;
+  background-color: gray;
+}

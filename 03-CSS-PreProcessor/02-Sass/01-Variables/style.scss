@@ -1,0 +1,9 @@
+$main-color: red;
+
+p {
+  color: $main-color; /* variable with hyphen */
+}
+
+a {
+  color: $main_color;/* variable with underscore */
+}
